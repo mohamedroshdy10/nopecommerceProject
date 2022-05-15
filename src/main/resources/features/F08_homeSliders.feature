@@ -1,0 +1,1 @@
+Feature: user can change the slider
