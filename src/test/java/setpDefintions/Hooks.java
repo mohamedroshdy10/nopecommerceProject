@@ -31,7 +31,7 @@ public class Hooks {
     }
     @After
     public  void closeBrowser() throws InterruptedException {
-        _driver.quit();Thread.sleep(1500);
+        _driver.quit();Wait(3000);
     }
     public  static void   Wait(double S) throws InterruptedException {Thread.sleep(1000);}
 }

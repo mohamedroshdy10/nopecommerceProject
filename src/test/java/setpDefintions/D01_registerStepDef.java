@@ -9,7 +9,7 @@ import org.testng.Assert;
 import static setpDefintions.Hooks.Wait;
 import static setpDefintions.Hooks.registerPage;
 
-public class DO1_registerStepDef {
+public class D01_registerStepDef {
     @When("user click the Register link")
     public  void clickRegisterLink()
     {
