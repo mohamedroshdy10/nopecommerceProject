@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/followUs_Dom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/slider_Dom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/f02_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/f02_login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSlidersstepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -38,16 +63,53 @@
       <recent name="D:\Courses\softwaretesting\UdcityFWD\Wbiners\Project3\nopecommerceProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: user switch between currencies">
-    <configuration name="Scenario: user login with valid Data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: F07_addProductToSh_card">
+    <configuration name="Feature: F07_addProductToSh_card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" />
+      <option name="GLUE" value="setpDefintions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="nopecommerceProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F07_addProductToSh_card" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: F09_wishList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" />
+      <option name="GLUE" value="setpDefintions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="nopecommerceProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F09_wishList" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: f02_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/f02_login.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^user login with valid Data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user login with valid Data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user login with valid Data" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: f02_login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -59,15 +121,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user switch between currencies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^user switch between currencies$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user switch between currencies$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user switch between currencies" />
+      <option name="NAME_FILTER" value="^logged user  click on the wishList element \&quot;HTC One M8 Android L 5\.0 Lollipop\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^logged user  click on the wishList element \&quot;HTC One M8 Android L 5\.0 Lollipop\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -79,15 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user using search input for find product by SKU" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: logged user  click on the wishList element" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^user using search input for find product by SKU$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user using search input for find product by SKU$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user using search input for find product by SKU" />
+      <option name="NAME_FILTER" value="^logged user  click on the wishList element$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^logged user  click on the wishList element$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: logged user  click on the wishList element" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -101,9 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: user switch between currencies" />
-        <item itemvalue="Cucumber Java.Scenario: user login with valid Data" />
-        <item itemvalue="Cucumber Java.Scenario: user using search input for find product by SKU" />
+        <item itemvalue="Cucumber Java.Feature: F07_addProductToSh_card" />
+        <item itemvalue="Cucumber Java.Feature: F09_wishList" />
+        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element" />
+        <item itemvalue="Cucumber Java.Feature: f02_login" />
       </list>
     </recent_temporary>
   </component>

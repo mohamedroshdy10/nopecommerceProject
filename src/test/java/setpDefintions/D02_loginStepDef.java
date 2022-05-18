@@ -1,14 +1,16 @@
 package setpDefintions;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import static setpDefintions.Hooks.*;
 
 public class D02_loginStepDef {
 
-    @When("user go to login url")
+    @Given("user go to login url")
     public void navigate_to_url()
     {
         _driver.navigate().to("https://demo.nopcommerce.com/login");
@@ -24,14 +26,12 @@ public class D02_loginStepDef {
     }
     @And("user go to home page successfully")
     public  void loginDone()  {
-        String Exp_Resulte="https://demo.nopcommerce.com/";
-        String Actual_Res=loginPage.getUrl();
-        Assert.assertEquals(Actual_Res,Exp_Resulte);
+//        String Exp_Resulte="https://demo.nopcommerce.com/";
+//        String Actual_Res=loginPage.getUrl();
+//        Assert.assertEquals(Actual_Res,Exp_Resulte);
+        SoftAssert soft=new SoftAssert();
+        soft.assertTrue(_driver.getCurrentUrl().contains("https://demo.nopcommerce.com"));
         Assert.assertTrue(loginPage.myAccountTab().isDisplayed());
-
-
-
-
 
     }
 }

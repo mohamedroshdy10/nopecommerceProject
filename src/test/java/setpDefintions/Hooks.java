@@ -18,7 +18,7 @@ public class Hooks {
 
 
     @Before
-    public  void openBrowser() throws InterruptedException {
+    public  static void openBrowser() throws InterruptedException {
         String chromePath= System.getProperty("user.dir")+"\\src\\main\\resources\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver",chromePath);
         _driver =new ChromeDriver();
@@ -30,8 +30,8 @@ public class Hooks {
         currencyPage=new currencyPage(_driver);
     }
     @After
-    public  void closeBrowser() throws InterruptedException {
+    public  static void closeBrowser() throws InterruptedException {
         _driver.quit();Wait(3000);
     }
-    public  static void   Wait(double S) throws InterruptedException {Thread.sleep(1000);}
+    public  static void  Wait(double S) throws InterruptedException {Thread.sleep(1000);}
 }

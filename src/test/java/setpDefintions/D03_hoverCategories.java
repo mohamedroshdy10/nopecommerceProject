@@ -1,33 +1,45 @@
 package setpDefintions;
 
 
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+
+import java.util.Locale;
+
+import static setpDefintions.Hooks._driver;
+
 public class D03_hoverCategories {
 
+    String subCategoryName;
 
+    @When("user hover category and select subcategory")
+    public void user_hover_category() throws InterruptedException {
 
+        Actions action = new Actions(_driver);
+        // hover on "Computers"
+        WebElement computers = _driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"] a[href=\"/computers\"]"));
+        action.moveToElement(computers).perform();
+        Thread.sleep(1000);
 
+        // getText() of subCategory before click on it
+        WebElement desktops = _driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"] a[href=\"/desktops\"]"));
+        subCategoryName = desktops.getText().toLowerCase().trim();        // this will change "Desktops " to "desktops"
+        System.out.println(subCategoryName);
+       // click on "Desktops"
+        desktops.click();
+    }
 
-
-//    //Instantiate Action Class
-//    Actions actions = new Actions(_driver);
-//    //Retrieve WebElement 'Music' to perform mouse hover
-//    WebElement menuOption = _driver.findElement(By.xpath(".//div//a[contains(text(),'Electronics ')]"));
-//    //Mouse hover menuOption 'Music'
-//    	actions.moveToElement(menuOption).perform();
-//    	System.out.println("Done Mouse hover on 'Music' from Menu");
-//
-//    //Now Select 'Rock' from sub menu which has got displayed on mouse hover of 'Music'
-//    WebElement subMenuOption = driver.findElement(By.xpath(".//div[contains(text(),'Rock')]"));
-//    //Mouse hover menuOption 'Rock'
-//    	actions.moveToElement(subMenuOption).perform();
-//    	System.out.println("Done Mouse hover on 'Rock' from Menu");
-//
-//    //Now , finally, it displays the desired menu list from which required option needs to be selected
-//    //Now Select 'Alternative' from sub menu which has got displayed on mouse hover of 'Rock'
-//    WebElement selectMenuOption = driver.findElement(By.xpath(".//div[contains(text(),'Alternative')]"));
-//    	selectMenuOption.click();
-//    	System.out.println("Selected 'Alternative' from Menu");
-
-
+    @Then("user get subCategory\"Desktops\"displayed as a title")
+    public void assertPageTitle() throws InterruptedException {
+        String ex_res = "Desktops";
+        String ac_res = _driver.findElement(By.cssSelector("div[class=\"page-title\"]")).getText();
+        Assert.assertEquals(ac_res.toLowerCase().trim(),ex_res.toLowerCase().trim());
+        System.out.println(ac_res);
+        System.out.println(ex_res);
+    }
 
 }

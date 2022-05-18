@@ -1,7 +1,7 @@
-Feature: confirm follow us page that work
-  Scenario: user open follow us page
-    When user navigate to the page by click follow us link
-    Then user open the  facebook site
+Feature: user can opens any follow us links
+  Scenario: user opens face book link
+    When user open facebook link
+#    Then facebook is  open in new tab
 
 
 
