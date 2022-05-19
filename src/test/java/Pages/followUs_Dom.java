@@ -20,9 +20,9 @@ public class followUs_Dom {
 //   public
 //   WebElement facebook_pom;
 
-    public  WebElement facebook_pom()
+    public  WebElement WebSite_Pom(String weSiteName)
     {
-        return _driver.findElement(By.cssSelector("a[href=\"http://www.facebook.com/nopCommerce\"]"));
+        return _driver.findElement(By.xpath("//li[@class=\""+weSiteName+"\"]"));
     }
     @FindBy(css = "a[href=\"http://www.twitter.com/nopCommerce\"]")
     public

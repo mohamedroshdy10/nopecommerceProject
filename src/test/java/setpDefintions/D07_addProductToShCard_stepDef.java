@@ -17,10 +17,9 @@ import static setpDefintions.Hooks._driver;
 public class D07_addProductToShCard_stepDef {
 
 
-    @When("user click wishlist and choose product\"HTC One M8 Android L 5.0 Lollipop\"")
-    public  void click_WishListItem1() throws InterruptedException {
+    @When("user click add First product\"HTC One M8 Android L 5.0 Lollipop\"")
+    public  void click_addFirstItem() throws InterruptedException {
         buttonsAdd("1").click();
-        Wait(4000);
     }
 
     @Then("user add item open page for the item and found details")
@@ -29,13 +28,9 @@ public class D07_addProductToShCard_stepDef {
 
         Assert.assertEquals(productNamePom().getText().toLowerCase().trim(),"Build your own computer".toLowerCase().trim());
     }
-
-
-
-    @When("user click wishlist and choose product\"Apple MacBook Pro 13-inch\"")
+    @When("user click add second product \"Apple MacBook Pro 13-inch\"")
     public  void click_WishListItem2() throws InterruptedException {
         buttonsAdd("2").click();
-        Wait(4000);
     }
     @Then("user add item open page for the item and found details\"Apple MacBook Pro 13-inch\"url page")
     public void open_ItemSuccessItem2() throws InterruptedException {

@@ -30,7 +30,7 @@ public class D02_loginStepDef {
 //        String Actual_Res=loginPage.getUrl();
 //        Assert.assertEquals(Actual_Res,Exp_Resulte);
         SoftAssert soft=new SoftAssert();
-        soft.assertTrue(_driver.getCurrentUrl().contains("https://demo.nopcommerce.com"));
+        soft.assertFalse(_driver.getCurrentUrl().contains("https://demo.nopcommerce.com/login.com"));
         Assert.assertTrue(loginPage.myAccountTab().isDisplayed());
 
     }
