@@ -6,6 +6,8 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import java.util.Random;
+
 import static setpDefintions.Hooks.Wait;
 import static setpDefintions.Hooks.registerPage;
 
@@ -37,10 +39,24 @@ public class D01_registerStepDef {
     Thread.sleep(3000);
 }
 @And("user enter email")
-    public  void email()
-{
-    registerPage.email().sendKeys("test@test.com");
+    public  void email() throws InterruptedException {
+    Random random=new Random();
+    int N=  random.nextInt();
+    System.out.println(getSaltString());
+    registerPage.email().sendKeys("test@test"+getSaltString()+".com");
+    Thread.sleep(4000);
 }
+    protected String getSaltString() {
+        String SALTCHARS = "123";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 3) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+    }
 @And("user enter company name")
     public  void companyName()
 {

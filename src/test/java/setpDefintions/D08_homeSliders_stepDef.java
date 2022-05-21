@@ -3,8 +3,6 @@ package setpDefintions;
 import Pages.slider_Dom;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import static setpDefintions.Hooks.Wait;

@@ -1,65 +1,64 @@
 package Pages;
 
+import setpDefintions.Hooks;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import static setpDefintions.Hooks._driver;
 
 public class RegisterPage {
     //public  static WebDriver driver;
 
     public  RegisterPage(WebDriver driver)
     {
-        _driver=driver;
+        Hooks._driver=driver;
     }
     public  WebElement genderMale()
     {
-        return _driver.findElement(By.id("gender-male"));
+        return Hooks._driver.findElement(By.id("gender-male"));
     }
     public  WebElement genderFemale()
     {
-        return _driver.findElement(By.id("gender-female"));
+        return Hooks._driver.findElement(By.id("gender-female"));
     }
     public  WebElement firstName()
     {
-        return  _driver.findElement(By.id("FirstName"));
+        return  Hooks._driver.findElement(By.id("FirstName"));
     }
     public  WebElement lastName()
     {
-        return  _driver.findElement(By.id("LastName"));
+        return  Hooks._driver.findElement(By.id("LastName"));
     }
     public  WebElement Data_OF_BirthDay()
     {
-        return  _driver.findElement(By.name("DateOfBirthDay"));
+        return  Hooks._driver.findElement(By.name("DateOfBirthDay"));
     }
     public  WebElement Data_OF_BirthMonth()
     {
-        return  _driver.findElement(By.name("DateOfBirthMonth"));
+        return  Hooks._driver.findElement(By.name("DateOfBirthMonth"));
     }
     public  WebElement Data_OF_BirthYear()
     {
-        return  _driver.findElement(By.name("DateOfBirthYear"));
+        return  Hooks._driver.findElement(By.name("DateOfBirthYear"));
     }
     public  WebElement email()
     {
-        return  _driver.findElement(By.id("Email"));
+        return  Hooks._driver.findElement(By.id("Email"));
     }
     public  WebElement companyName()
     {
-        return  _driver.findElement(By.id("Company"));
+        return  Hooks._driver.findElement(By.id("Company"));
     }
     public  WebElement password()
     {
-        return  _driver.findElement(By.id("Password"));
+        return  Hooks._driver.findElement(By.id("Password"));
     }
     public  WebElement confirmPassword ()
     {
-        return  _driver.findElement(By.id("ConfirmPassword"));
+        return  Hooks._driver.findElement(By.id("ConfirmPassword"));
     }
     public  WebElement registerButton ()
     {
-        return  _driver.findElement(By.cssSelector("button[name=\"register-button\"]"));
+        return  Hooks._driver.findElement(By.cssSelector("button[name=\"register-button\"]"));
     }
 
     public  void FullName(String firstName,String lastname)
@@ -76,10 +75,10 @@ public class RegisterPage {
 
     public  WebElement SuccessMessage()
     {
-        return  _driver.findElement(By.cssSelector("div[class=\"result\"]"));
+        return  Hooks._driver.findElement(By.cssSelector("div[class=\"result\"]"));
     }
 
     public WebElement registerLinkClick() {
-        return  _driver.findElement(By.cssSelector("a[class=\"ico-register\"]"));
+        return  Hooks._driver.findElement(By.cssSelector("a[class=\"ico-register\"]"));
     }
 }

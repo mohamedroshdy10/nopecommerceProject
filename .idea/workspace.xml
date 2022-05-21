@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="add some test cases today 19/5">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtilities.java" afterDir="false" />
+    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="push last part 21/5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" afterDir="false" />
@@ -14,12 +12,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652970947612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="push last part 21/5">
+      <created>1653138899017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653138899017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some test cases today 18/5" />
     <MESSAGE value="add some test cases today 19/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some test cases today 19/5" />
+    <MESSAGE value="push last part 21/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="push last part 21/5" />
   </component>
 </project>

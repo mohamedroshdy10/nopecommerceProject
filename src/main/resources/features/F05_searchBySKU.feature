@@ -1,4 +1,4 @@
-
+@regression
 Feature: user login search by SKU for to find a product
   Scenario: user using search input for find product by SKU
     When user write product name ' M8_HTC_5L' in search input

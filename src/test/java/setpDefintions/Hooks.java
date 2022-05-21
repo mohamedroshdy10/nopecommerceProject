@@ -1,8 +1,8 @@
 package setpDefintions;
 import Pages.LoginPage;
-import Pages.RegisterPage;
 import Pages.currencyPage;
 import Pages.homePage;
+import Pages.RegisterPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
@@ -15,8 +15,8 @@ public class Hooks {
     public  static WebDriver _driver =null;
     public  static   RegisterPage registerPage;
     public static LoginPage loginPage;
-    public static currencyPage currencyPage;
-    public  static homePage homePage;
+    public static Pages.currencyPage currencyPage;
+    public  static Pages.homePage homePage;
 
 
     @Before
