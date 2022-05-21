@@ -1,5 +1,6 @@
+@regression
 Feature: user login can add product to shopping card
-#  Background: user login website
+  Background: user login website
 #    Given user go to login url
 #    When user login with valid email and password
 #    Then user click on the login button

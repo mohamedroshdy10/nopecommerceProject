@@ -2,6 +2,7 @@ package setpDefintions;
 import Pages.LoginPage;
 import Pages.RegisterPage;
 import Pages.currencyPage;
+import Pages.homePage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,7 @@ public class Hooks {
     public  static   RegisterPage registerPage;
     public static LoginPage loginPage;
     public static currencyPage currencyPage;
+    public  static homePage homePage;
 
 
     @Before
@@ -28,10 +30,11 @@ public class Hooks {
         registerPage=new RegisterPage(_driver);
         loginPage=new LoginPage(_driver);
         currencyPage=new currencyPage(_driver);
+        homePage=new homePage(_driver);
     }
     @After
     public  static void closeBrowser() throws InterruptedException {
-        _driver.quit();Wait(3000);
+        _driver.quit();Wait(4000);
     }
-    public  static void  Wait(double S) throws InterruptedException {Thread.sleep(1000);}
+    public  static void  Wait(long S) throws InterruptedException {Thread.sleep(S);}
 }

@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="add some test cases today 18/5">
+    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="add some test cases today 19/5">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/homePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/followUs_Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/followUs_Dom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +62,15 @@
       <recent name="D:\Courses\softwaretesting\UdcityFWD\Wbiners\Project3\nopecommerceProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;">
-    <configuration name="Feature: F06_followUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: F01_register">
+    <configuration name="Feature: F01_register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_register.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F06_followUs" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_register" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -91,15 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: logged user  click on the wishList element &quot;Apple MacBook Pro 13-inch&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: added products are displayed on wishlist page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^logged user  click on the wishList element \&quot;Apple MacBook Pro 13\-inch\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^logged user  click on the wishList element \&quot;Apple MacBook Pro 13\-inch\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: logged user  click on the wishList element &quot;Apple MacBook Pro 13-inch&quot;" />
+      <option name="NAME_FILTER" value="^added products are displayed on wishlist page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^added products are displayed on wishlist page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: added products are displayed on wishlist page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,33 +141,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" />
-      <option name="GLUE" value="setpDefintions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="TestRunners" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^logged user  click on the wishList element \&quot;HTC One M8 Android L 5\.0 Lollipop\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^logged user  click on the wishList element \&quot;HTC One M8 Android L 5\.0 Lollipop\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;" />
+        <item itemvalue="Cucumber Java.Feature: F01_register" />
+        <item itemvalue="TestNG.TestRunners" />
         <item itemvalue="Cucumber Java.Feature: F07_addProductToSh_card" />
-        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;Apple MacBook Pro 13-inch&quot;" />
-        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;HTC One M8 Android L 5.0 Lollipop&quot;" />
-        <item itemvalue="Cucumber Java.Feature: F06_followUs" />
+        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: added products are displayed on wishlist page" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652832161709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add some test cases today 19/5">
+      <created>1652970947612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652970947612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some test cases today 18/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some test cases today 18/5" />
+    <MESSAGE value="add some test cases today 19/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some test cases today 19/5" />
   </component>
 </project>
