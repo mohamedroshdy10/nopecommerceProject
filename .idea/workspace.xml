@@ -4,24 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="push last part 21/5">
+    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="Reoports">
+      <change afterPath="$PROJECT_DIR$/ScreenShots/4_1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/5_1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/6_1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/P_1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/P_2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/d.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D06_follow_Us_stepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_changeCurrency.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_hoverCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_searchByName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_searchBySKU.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_homeSliders.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/addTo_cardDom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/currencyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/currencyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/followUs_Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/followUs_Dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/slider_Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/slider_Dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/Runners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D01_registerStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D02_loginStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_changeCurrencyStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D03_changeCurrencyStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D03_hoverCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D04_SearchByNameSetupDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D04_SearchByNameSetupDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D05_SearchBySKUSetupDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D05_SearchBySKUSetupDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D08_homeSliders_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/utilities/BrowserUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +65,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/org/example" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Courses\SoftwareTesting\UdcityFWD\Wbiners\Project2\Ecommerce_Final\nopecommerceProject\src\main\resources" />
       <recent name="D:\Courses\softwaretesting\UdcityFWD\Wbiners\Project3\nopecommerceProject\src\test\java" />
       <recent name="D:\Courses\softwaretesting\UdcityFWD\Wbiners\Project3\nopecommerceProject\src\main\resources\features" />
     </key>
@@ -62,15 +78,15 @@
       <recent name="D:\Courses\softwaretesting\UdcityFWD\Wbiners\Project3\nopecommerceProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: F01_register">
-    <configuration name="Feature: F01_register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Runners (1)">
+    <configuration name="Feature: F06_followUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_register.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F01_register" />
+      <option name="SUGGESTED_NAME" value="Feature: F06_followUs" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: F07_addProductToSh_card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user opens res  link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" />
       <option name="GLUE" value="setpDefintions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopecommerceProject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F07_addProductToSh_card" />
+      <option name="NAME_FILTER" value="^user opens res  link$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user opens res  link$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user opens res  link" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -101,42 +118,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: added products are displayed on wishlist page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F09_wishList.feature" />
-      <option name="GLUE" value="setpDefintions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Runners (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^added products are displayed on wishlist page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^added products are displayed on wishlist page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: added products are displayed on wishlist page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="org.example.TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestRunner.Runners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_addProductToSh_card.feature" />
-      <option name="GLUE" value="setpDefintions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Runners" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="nopecommerceProject" />
-      <option name="NAME_FILTER" value="^logged user  click on the wishList element \&quot;Build your own computer\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^logged user  click on the wishList element \&quot;Build your own computer\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.Runners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: F01_register" />
+        <item itemvalue="TestNG.Runners (1)" />
+        <item itemvalue="Cucumber Java.Feature: F06_followUs" />
+        <item itemvalue="Cucumber Java.Scenario: user opens res  link" />
+        <item itemvalue="TestNG.Runners" />
         <item itemvalue="TestNG.TestRunners" />
-        <item itemvalue="Cucumber Java.Feature: F07_addProductToSh_card" />
-        <item itemvalue="Cucumber Java.Scenario: logged user  click on the wishList element &quot;Build your own computer&quot;" />
-        <item itemvalue="Cucumber Java.Scenario: added products are displayed on wishlist page" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653138899017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reoports">
+      <created>1653151255451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653151255451</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +234,7 @@
     <MESSAGE value="add some test cases today 18/5" />
     <MESSAGE value="add some test cases today 19/5" />
     <MESSAGE value="push last part 21/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="push last part 21/5" />
+    <MESSAGE value="Reoports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reoports" />
   </component>
 </project>
