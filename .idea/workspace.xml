@@ -4,38 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="Reoports">
-      <change afterPath="$PROJECT_DIR$/ScreenShots/4_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/5_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/6_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/P_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/P_2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/d.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D06_follow_Us_stepDef.java" afterDir="false" />
+    <list default="true" id="925d5a03-bf13-40cb-be72-a6d915d36e3b" name="Changes" comment="last Change After Review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_followUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/addTo_cardDom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/addTo_cardDom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/currencyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/currencyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/followUs_Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/followUs_Dom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/slider_Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/slider_Dom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/Runners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D01_registerStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D02_loginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_changeCurrencyStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D03_changeCurrencyStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D03_hoverCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D03_hoverCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D04_SearchByNameSetupDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D04_SearchByNameSetupDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D05_SearchBySKUSetupDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D05_SearchBySKUSetupDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D06_follow_Us_stepDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D07_addProductToShCard_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D07_addProductToShCard_stepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D08_homeSliders_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D08_homeSliders_stepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/D09_wishListStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/D09_wishListStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setpDefintions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/setpDefintions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/utilities/BrowserUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653151255451</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="last Change After Review">
+      <created>1653831922721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653831922721</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +212,7 @@
     <MESSAGE value="add some test cases today 19/5" />
     <MESSAGE value="push last part 21/5" />
     <MESSAGE value="Reoports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reoports" />
+    <MESSAGE value="last Change After Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="last Change After Review" />
   </component>
 </project>
